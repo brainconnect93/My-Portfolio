@@ -13,7 +13,7 @@ body {
 .nav_container {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 0rem 3%;
+  padding: 0 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,6 +70,7 @@ body {
 }
 
 .section {
+  padding: 0 3%;
   background-image: url(Header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,15 +114,17 @@ h1.heading {
 }
 
 @media screen and (max-width: 768px) {
-  .container_small{
+  .container_small {
     padding: 18px;
   }
+
   .section {
     background-image: url(Header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
+
   .toolbar {
     display: none;
   }
