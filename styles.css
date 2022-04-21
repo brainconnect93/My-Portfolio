@@ -6,10 +6,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.main-container{
+  padding: 0 3%;
+}
 .nav_container {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +38,6 @@ body {
 
 .footer-icon {
   margin: 0 1rem 0 0;
-  display: flex;
 }
 
 .footer-icons {
@@ -47,7 +49,7 @@ body {
   display: flex;
 }
 
-.nav_link a {
+.nav_link  {
   padding: 10px 12px;
   margin: 0 .5rem 0 0;
   color: #344563;
@@ -97,7 +99,24 @@ h1.heading {
   padding: -5rem 0; 
 }
 
+
+.mobile_menu {
+  display: none;
+  
+}
+
 @media screen and (max-width: 768px) {
+
+  .toolbar {
+    display: none;
+  }
+  .mobile_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
   h1.heading {
     font-size: 2.5rem;
     display: flex;
