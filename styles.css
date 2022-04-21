@@ -20,14 +20,40 @@ body {
   padding: 10px 12px;
   font-size: 18px;
   color: #162ae3;
+  display: flex;
+}
+
+.footer_head {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 1px;
+  display: flex;
+}
+
+.footer-icon {
+  margin: 0 1rem 0 0;
+  display: flex;
+}
+
+.footer-icons {
+  display: flex;
 }
 
 .nav_link {
+  margin: 10px 12px;
+  display: flex;
+}
+
+.nav_link a {
   padding: 10px 12px;
   margin: 0 .5rem 0 0;
   color: #344563;
   font-weight: 500;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .toolbar {
@@ -35,7 +61,7 @@ body {
 }
 
 .section {
-  background-image: url(/asset/Header-bg.svg);
+  background-image: url(Header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,100 +76,30 @@ body {
 }
 
 .container_small {
+  padding: 10rem 0;
   max-width: 57rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-.head_section {
-  margin: 12px 0;
-}
-
-.head_section h1 {
-  font-size: 3rem;
+p.text {
+  font-size: 1rem;
   font-weight: 500;
 }
 
-.head_section p {
-  font-size: 1.25rem;
+h1.heading {
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
-
-
-/* .nav-container {
-  display: flex;
-  margin-top: 10px;
-  margin-left: 40px;
-  justify-content: space-between;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-} */
-
-/* .nav-menu {
-  display: flex;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  justify-content: space-between;
-  width: 15%;
-  margin-top: 10px;
-  margin-right: 120px;
-} */
-
-/* .nav-head {
-  font-size: 18px;
-  color: blue;
-  display: flex;
-  align-items: center;
-} */
-
-a {
-  text-decoration: none;
-  font-size: 15px;
-  color: #344563;
-  margin: 10px 10px;
-}
-
-.main_container {
-  position: static;
-  margin-top: 15%;
-  margin-left: 200px;
-  color: #091E42;
-  font-family: 'Poppins', sans-serif;
-}
-
-.mainbody {  
-  width: 920px;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
-
-.footer_container {
-  position: static;
-  margin-top: 80px;
-  margin-left: 200px;
-  margin-bottom: 0px;
-}
-
-.footer_icons {
-  position: static;
-  left: 26.32%;
-  right: 72.43%;
-  top: 12.53%;
-  bottom: 87.08%;
-  display: flex;
-  margin-left: -10px;
-}
-
-.footer_head {
-  font-size: 10px;
-  color: #7F8CFF;
-  font-family: 'Poppins', sans-serif;
+.headline_section {
+  padding: -5rem 0; 
 }
 
 @media screen and (max-width: 768px) {
-  
+  h1.heading {
+    font-size: 2.5rem;
+    display: flex;
+  }
 }
