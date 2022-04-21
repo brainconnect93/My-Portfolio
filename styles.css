@@ -70,8 +70,8 @@ body {
 }
 
 .section {
-  padding: 0 3%;
-  background-image: url(Header-bg.png);
+  /* padding: 0 3%; */
+  background-image: url(header-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -107,6 +107,7 @@ h1.heading {
 
 .headline_section {
   padding: -5rem 0;
+  margin-top: 7rem;
 }
 
 .mobile_menu {
@@ -119,7 +120,7 @@ h1.heading {
   }
 
   .section {
-    background-image: url(Header-bg.png);
+    background-image: url(header-shapes-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
