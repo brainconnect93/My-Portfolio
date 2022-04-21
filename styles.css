@@ -74,7 +74,6 @@ body {
   background-image: url(header-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .main_container {
@@ -123,7 +122,6 @@ h1.heading {
     background-image: url(header-shapes-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
   }
 
   .toolbar {
