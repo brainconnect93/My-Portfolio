@@ -56,14 +56,14 @@ body {
   margin-top: -5px;
 }
 
-.social-icon ul {
+.social-icons ul {
   display: flex;
   margin: 0 1rem 0 0;
   padding: 0;
   gap: 20px;
 }
 
-.social-icon ul li {
+.social-icons ul li {
   list-style: none;
 }
 
@@ -100,12 +100,12 @@ p.text {
 h1.heading {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 50px;
+  /* line-height: 50px; */
 }
 
 .headline_section {
   padding: -5rem 0;
-  margin-top: 1rem;
+  margin-top: -2.7rem;
 
 }
 
@@ -190,17 +190,17 @@ h1.heading {
   text-align: center;
 }
 
-ul li:nth-child(1) {
+.tag {
   position: static;
   width: 60px;
 }
 
-ul li:nth-child(2) {
+.tag1 {
   position: static;
   width: 60px;
 }
 
-ul li:nth-child(3) {
+.tag2 {
   position: static;
   width: 100px;
 }
@@ -249,7 +249,7 @@ ul li:nth-child(3) {
   box-sizing: border-box;
   border-radius: 16px;
   margin: 40px;
-  padding: 16px;
+  padding: 14px;
 }
 
 .work-box1 {
@@ -265,15 +265,13 @@ ul li:nth-child(3) {
     box-sizing: border-box;
     border-radius: 16px;
     margin: 40px;
-    padding: 16px;
+    padding: 14px;
   }
 
   .work-section{
     width: 100%;
-    /* margin-left: 50px; */
     display: flex;
     flex-direction: row;
-    /* grid-template-columns: repeat(auto-fit, 20rem); */
     justify-content: center; 
     flex-wrap: wrap;
     overflow: hidden;
@@ -283,6 +281,69 @@ ul li:nth-child(3) {
   .work-portfolio {
     margin-top: 2rem;
   }
+
+  /* ABOUT SECTION DESIGN */
+
+.about-title {
+  font-family: 'Poppins' sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color:  #172B4D;
+}
+
+.about-note {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #344563;
+  margin: .75rem 0rem;
+}
+
+.about-box {
+  margin: -3rem 0rem;
+  padding: 5.5rem;
+}
+
+.about-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #7f8cff;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.about-icon {
+  margin-top: -5px;
+}
+
+.about-icon ul {
+  display: flex;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.about-icon ul li {
+  list-style: none;
+}
+
+.about-button {
+  align-items: center;
+  position: static;
+  line-height: 24px;
+  text-align: center;
+  color: #396DF2;
+  background: #fcfcfe;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin: .75rem 0;
+  border: 1px solid #396DF2;
+}
 
 @media screen and (max-width: 768px) {
   .container_small {
