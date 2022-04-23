@@ -4,6 +4,8 @@
 # Project Name
 
 > Portfolio project
+> Add Work Session project
+> Add About Session project
 
 ## Built With
 
