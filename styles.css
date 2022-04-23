@@ -266,23 +266,23 @@ ul li:nth-child(3) {
     padding: 16px;
   }
 
-  /* .work-section{
+  .work-section{
     width: 300px;
     margin-right: 10px;
     margin-bottom: 40px;
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap; */
-  /* }
+    flex-wrap: nowrap;
+  }
 
   .work-portfolio {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-  } */
-  
+  }
+
 @media screen and (max-width: 768px) {
   .container_small {
     padding-left: 8px;
