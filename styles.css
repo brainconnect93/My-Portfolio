@@ -237,50 +237,51 @@ ul li:nth-child(3) {
 }
 
 .work-box {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: static; */
+  position: relative;
   background-color: #FFFFFF;
   width: 327px;
   height: 570px;
   border: 1px solid #DFE1E6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin: 88px 0px;
+  margin: 40px;
   padding: 16px;
 }
 
 .work-box1 {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: static; */
+    position: relative;
     background-color: #FFFFFF;
     width: 327px;
     height: 620px;
     border: 1px solid #DFE1E6;
     box-sizing: border-box;
     border-radius: 16px;
-    margin: 88px 0px;
+    margin: 40px;
     padding: 16px;
   }
 
   .work-section{
-    width: 300px;
-    margin-right: 10px;
-    margin-bottom: 40px;
+    width: 100%;
+    /* margin-left: 50px; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    /* grid-template-columns: repeat(auto-fit, 20rem); */
+    justify-content: center; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: rgb(240, 240, 240);
   }
 
   .work-portfolio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin-top: 2rem;
   }
 
 @media screen and (max-width: 768px) {
