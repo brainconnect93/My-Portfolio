@@ -443,6 +443,7 @@ h1.heading {
   flex-direction: column;
   margin: 10px;
   margin-left: 20px;
+  align-items: flex-start;
 }
 
 .contact-form input {
@@ -474,7 +475,9 @@ h1.heading {
   border-radius: 8px;
   height: 170px;
   width: 327px;
-  text-align: start;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .btn {
