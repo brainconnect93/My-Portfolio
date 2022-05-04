@@ -475,22 +475,25 @@ h1.heading {
   height: 170px;
   width: 327px;
   margin-left: 20px;
-  text-align: start;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 .btn {
-  align-items: center;
-  text-align: center;
   color: #396df2;
   background: #fcfcfe;
   font-weight: 500;
   font-size: 17px;
-  width: 108px;
+  width: 115px;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #396df2;
   margin-left: 20px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding-top: 10px;
 }
 
 .btn:hover {
