@@ -478,11 +478,10 @@ h1.heading {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  margin-left: 20px;
 }
 
 .btn {
-  align-items: center;
-  text-align: center;
   color: #396df2;
   background: #fcfcfe;
   font-weight: 500;
@@ -493,6 +492,9 @@ h1.heading {
   border: 1px solid #396df2;
   margin-left: 20px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
 .btn:hover {
