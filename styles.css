@@ -422,7 +422,7 @@ h1.heading {
   align-items: center;
 }
 
-.contact-box h1 {
+.contact-box h2 {
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -449,6 +449,7 @@ h1.heading {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  padding-left: 15px;
 }
 
 #text {
@@ -477,6 +478,7 @@ h1.heading {
   margin-left: 20px;
   font-weight: 500;
   font-size: 17px;
+  padding: 15px 1px 1px 15px;
 }
 
 .btn {
@@ -484,16 +486,18 @@ h1.heading {
   background: #fcfcfe;
   font-weight: 500;
   font-size: 17px;
-  width: 115px;
-  height: 40px;
-  border-radius: 5px;
+  line-height: 24px;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
   border: 1px solid #396df2;
   margin-left: 20px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  padding-top: 10px;
+  padding: 12px 16px;
+  align-items: center;
 }
 
 .btn:hover {
