@@ -4,8 +4,8 @@
 # Project Name
 
 > Portfolio project
-> Add Work Session project
-> Add About Session project
+> Add contact Session project
+> Add formspree id link
 
 ## Built With
 
