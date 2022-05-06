@@ -27,8 +27,27 @@ body {
 
 .nav_head {
   text-decoration: none;
-  color: #162ae3;
+  color: grey;
 }
+
+.nav_head:hover {
+  box-shadow: 20px 20px 40px rgb(30, 15, 252, 1.2);
+  background: #162ae3;
+}
+
+/* a.nav_head::before {
+  background-color: #54b3d6;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+}
+
+a.nav_head:hover::before,
+a.nav_head:focus::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+} */
 
 .nav_link {
   padding: 10px 12px;
