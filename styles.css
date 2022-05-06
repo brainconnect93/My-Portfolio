@@ -33,21 +33,9 @@ body {
 .nav_head:hover {
   box-shadow: 20px 20px 40px rgb(30, 15, 252, 1.2);
   background: #162ae3;
+  color: #fff;
 }
 
-/* a.nav_head::before {
-  background-color: #54b3d6;
-  height: 2px;
-  bottom: 0;
-  transform-origin: 100% 50%;
-  transform: scaleX(0);
-}
-
-a.nav_head:hover::before,
-a.nav_head:focus::before {
-  transform-origin: 0% 50%;
-  transform: scaleX(1);
-} */
 
 .nav_link {
   padding: 10px 12px;
@@ -235,6 +223,7 @@ h1.heading {
 .see-project:hover {
   background-color: rgb(172, 153, 153);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .work-box {
@@ -517,10 +506,28 @@ h1.heading {
   margin-top: 15px;
   padding: 12px 16px;
   align-items: center;
+  background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
 .btn:hover {
-  background-color: rgb(181, 181, 181);
+  background-color: #396df2;
+  background-size: 0 3px, 100% 3px;
+  color: #fff;
 }
 
 .contact-shape img {
