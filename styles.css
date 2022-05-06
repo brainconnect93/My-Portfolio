@@ -518,38 +518,6 @@ h1.heading {
 .hand {
   display: none;
 }
-/* 
-@media screen and (max-width: 767px) {
-.container_small {
-  padding-left: 8px;
-  margin-top: -60px;
-}
-
-.section {
-  background-image: url(asset/header-shapes-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom-left-radius: 50px;
-}
-
-.toolbar {
-  display: none;
-}
-
-.mobile_menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 20px;
-}
-
-h1.heading {
-  font-size: 2.5rem;
-  display: flex;
-  }
-}
-
-*/
 
 @media screen and (min-width: 768px) {
 
@@ -561,11 +529,9 @@ body{
 
 .nav_container {
   background-color: #fff;
-  width:;
 }
 
 .section {
-  /* padding: 5rem 3%; */
   padding: 0 3%;
   background-image: url(asset/header-shapes-mobile.svg);
   background-repeat: no-repeat;
@@ -580,7 +546,7 @@ body{
   }
 
   .work-box {
-    width: 72.25rem;
+    max-width: 72.25rem;
     height: 26.25rem;
     border-radius: 1.5rem;
   }
