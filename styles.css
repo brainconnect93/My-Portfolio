@@ -514,6 +514,10 @@ h1.heading {
   margin-left: calc(50% - 134px / 2 - 0.5px);
   margin-bottom: 8px;
 }
+
+.hand {
+  display: none;
+}
 /* 
 @media screen and (max-width: 767px) {
 .container_small {
@@ -548,12 +552,26 @@ h1.heading {
 */
 
 @media screen and (min-width: 768px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 body{
   background-color: rgb(240, 240, 240);
 }
 
+.nav_container {
+  background-color: #fff;
+  width:;
+}
+
 .section {
-  padding: 5rem 3%;
+  /* padding: 5rem 3%; */
+  padding: 0 3%;
+  background-image: url(asset/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+  background-color: #fff;
 }
 
   .container {
@@ -689,6 +707,8 @@ body{
   margin-top: 100px;
   text-align: center;
   font-size: 40px;
+  font-family: 'Poppin';
+  font-weight: 700;
 }
 
 .contact-box p {
@@ -697,5 +717,50 @@ body{
   margin-left: 25%;
   align-items: center;
   margin-top: -25px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.contact-form {
+  align-items: center;
+  margin-top: -20px;
+}
+
+#text {
+  border: 1px solid #cfd8dc;
+  border-radius: 1px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  font-family: 'Poppins';
+}
+
+#email {
+  border: 1px solid #cfd8dc;
+  border-radius: 1px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  font-family: 'Poppins';
+}
+
+#message {
+  border: 1px solid #cfd8dc;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #b3bac5;
+  line-height: 24px;
+  font-family: 'Poppins';
+}
+
+.btn {
+  margin-left: 30%;
+  margin-bottom: 50px;
+}
+
+.contact-shape img {
+  display: none;
 }
 }
