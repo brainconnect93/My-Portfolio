@@ -31,7 +31,7 @@ section.work-portfolio {
 
 .nav_head {
   text-decoration: none;
-  color: grey;
+  color: #7f8cff;
 }
 
 .nav_head:hover {
@@ -482,14 +482,14 @@ h1.heading {
 }
 
 .btn {
-  color: #396df2;
+  /* color: #396df2; */
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   width: 140px;
   height: 48px;
   border-radius: 8px;
-  border: 1px solid #396df2;
+  border: 1px solid #fff;
   margin-left: 20px;
   cursor: pointer;
   display: flex;
@@ -516,9 +516,9 @@ h1.heading {
 }
 
 .btn:hover {
-  background-color: #396df2;
+  background-color: #fff;
   background-size: 0 3px, 100% 3px;
-  color: #fff;
+  color: #396df2;
 }
 
 .contact-shape img {
@@ -540,7 +540,7 @@ h1.heading {
     background-color: rgb(240, 240, 240);
   }
 
-  .nav_container {
+  .material {
     background-color: #fff;
   }
 
