@@ -6,6 +6,8 @@
 > Portfolio project
 > Add contact Session project
 > Add formspree id link
+> Add Animation effect to the project
+> Make the Desktop version of the protfolio project
 
 ## Built With
 
