@@ -540,24 +540,24 @@ body{
   background-color: #fff;
 }
 
-  .container {
-    max-width: 72.25rem;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 72.25rem;
+  margin: 0 auto;
+}
 
-  .work-box {
-    max-width: 72.25rem;
-    height: 26.25rem;
-    border-radius: 1.5rem;
-  }
+.work-box {
+  max-width: 72.25rem;
+  height: 26.25rem;
+  border-radius: 1.5rem;
+}
 
 .reverse-row {
   flex-direction: row-reverse;
-  }
+}
 
-  .work-box {
-    flex-wrap: nowrap;
-  }
+.work-box {
+  flex-wrap: nowrap;
+}
 
 .work-box:nth-child(3) {
   cursor: pointer;
@@ -565,8 +565,8 @@ body{
   box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
 }
 
-  .work-img img {
-    height: 100%;
+.work-img img {
+  height: 100%;
 }
 
 .work-info {
@@ -593,15 +593,9 @@ body{
 
 .about-box {
   width: 50%;
-  margin-left: 30px;
-  margin-top: 2.5rem;
+  margin-left: 15px;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-right: -2rem;
-}
-
-.about-box p {
-  width: 447px;
-  height: 102px;
 }
 
 .lang-container {
@@ -621,7 +615,7 @@ body{
 }
 
 #btn:active {
- background-color: #162ae3;
+  background-color: #162ae3;
 }
 
 #btn:hover {
