@@ -31,7 +31,13 @@ section.work-portfolio {
 
 .nav_head {
   text-decoration: none;
-  color: #162ae3;
+  color: grey;
+}
+
+.nav_head:hover {
+  box-shadow: 20px 20px 40px rgb(30, 15, 252, 1.2);
+  background: #162ae3;
+  color: #fff;
 }
 
 .nav_link {
@@ -227,6 +233,7 @@ h1.heading {
   background-color: rgb(172, 153, 153);
   cursor: pointer;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .work-box {
@@ -476,7 +483,6 @@ h1.heading {
 
 .btn {
   color: #396df2;
-  background: #fcfcfe;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -491,10 +497,28 @@ h1.heading {
   margin-top: 15px;
   padding: 12px 16px;
   align-items: center;
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 .btn:hover {
-  background-color: rgb(181, 181, 181);
+  background-color: #396df2;
+  background-size: 0 3px, 100% 3px;
+  color: #fff;
 }
 
 .contact-shape img {
