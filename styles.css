@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  background-color: rgb(240, 240, 240);
 }
 
 section.work-portfolio {
@@ -79,10 +80,11 @@ section.work-portfolio {
 
 .section {
   padding: 0 3%;
-  background-image: url(asset/header-shapes-mobile.svg);
+  background-image: url(asset/Header-bg1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 100px;
+  height: 100%;
 }
 
 .main_container {
@@ -409,7 +411,7 @@ h1.heading {
 }
 
 .contact-container {
-  background-image: url(asset/header-shapes-mobile.svg);
+  background-image: url(asset/Header-bg1.svg);
   background-color: #5566f8;
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,7 +484,6 @@ h1.heading {
 }
 
 .btn {
-  /* color: #396df2; */
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -536,10 +537,6 @@ h1.heading {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(240, 240, 240);
-  }
-
   .material {
     background-color: #fff;
   }
@@ -565,18 +562,26 @@ h1.heading {
     flex-wrap: nowrap;
   }
 
-  .reverse {
-    flex-direction: row-reverse;
-  }
-
-  .work-box:nth-child(3) {
+  .work-box:hover {
     cursor: pointer;
     border: 2px solid #a7aeff;
     box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
   }
 
+  .work-box:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   .work-img img {
     height: 100%;
+  }
+
+  .see-project:active {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+    box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
+    background: #162ae3;
+    color: #fff;
   }
 
   .work-info {
