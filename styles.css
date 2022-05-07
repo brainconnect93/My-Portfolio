@@ -541,7 +541,7 @@ h1.heading {
     flex-wrap: nowrap;
   }
 
-  .reverse-row {
+  .reverse {
     flex-direction: row-reverse;
   }
 
