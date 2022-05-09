@@ -1,5 +1,6 @@
 # My-Portfolio Desktop version
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
+Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i showcase the work i have done in the past. 
 
 > Portfolio project
 > Add contact Session project
