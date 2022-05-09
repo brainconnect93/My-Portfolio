@@ -575,7 +575,7 @@ h1.heading {
   .work-img img {
     height: 100%;
   }
-  
+
   .see-project:active {
     cursor: pointer;
     border: 2px solid #a7aeff;
