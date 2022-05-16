@@ -36,9 +36,12 @@ section.work-portfolio {
 }
 
 .nav_head:hover {
-  box-shadow: 20px 20px 40px rgb(30, 15, 252, 1.2);
+  box-shadow: 1px 12px 20px rgb(5, 15, 252, 0.24);
   background: #162ae3;
   color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 2px 15px;
 }
 
 .nav_link {
@@ -738,5 +741,23 @@ h1.heading {
 
   .contact-shape img {
     display: none;
+  }
+
+  p:hover {
+    font-size: 20px;
+  }
+
+  .social-icons:hover {
+    border: 1px solid #396df2;
+    padding: 40px;
+  }
+
+  .about-icon:hover {
+    border: 1px solid #396df2;
+    padding: 20px;
+  }
+
+  .toolbar a:hover {
+    font-size: 20px;
   }
 }
