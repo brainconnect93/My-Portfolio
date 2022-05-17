@@ -627,7 +627,6 @@ h1.heading {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
-
   }
 
   .nav-item {
@@ -638,19 +637,18 @@ h1.heading {
     left: 0;
   }
 
-  .nav-menu{
+  .nav-menu {
     flex-direction: column;
     position: fixed;
-    /* left: 100%; */
     width: 100%;
     text-align: center;
-    transition: .3s;
+    transition: 0.3s;
+    padding-top: 100px;
   }
 
   .nav-dir {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
     text-align: start;
   }
 }
@@ -688,10 +686,10 @@ h1.heading {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: -70%
+    margin-left: -70%;
   }
-  
-  .nav-menu li a{
+
+  .nav-menu li a {
     padding: 10px 12px;
     margin: 0 0.5rem 0 0;
     color: #344563;
