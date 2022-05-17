@@ -686,7 +686,7 @@ h1.heading {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: -70%;
+    margin-left: -100%;
   }
 
   .nav-menu li a {

@@ -7,11 +7,13 @@ Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i s
 > Add formspree id link
 > Add Animation effect to the project
 > Make the Desktop version of the protfolio project
+> Make the mobile menu of the portfolio using javaScript
 
 ## Built With
 
-- HTML
-- CSS
+    - HTML
+    - CSS
+    - JAVASCRIPT
 
 #Getting Started
 
@@ -32,6 +34,11 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@brainconnect93](https://github.com/brainconnect93)
 - Twitter: [@brainconnect0](https://twitter.com/brainconnect0)
 - LinkedIn: [Afolabi Akorede](https://linkedin.com/in/brainconnect93)
+
+        👤 Massaillon SILUE
+
+    GitHub: @massaillon
+    LinkedIn: Massaillon Silue
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
