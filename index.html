@@ -13,24 +13,33 @@
     <header class="material">
         <div class="nav_container">
         <div class="nav_logo">
-                <a class="nav_head" href="">My Logo</a>
+                <a class="nav_head" href="#">Brainconnect</a>
         </div>
         <!--  -->
         <nav class="toolbar">
-                <a class="nav_link" href="#">Portfolio</a>
-                <a class="nav_link" href="#">About</a>
-                <a class="nav_link" href="#">Contact</a>
-        </nav>
-        </div>
-            <!-- RESPONSIVE NAVBAR -->
-        <nav class="mobile_menu">
-            <div class="my_logo"></div>
-            <div class="toggle_menu">
-                <img src="asset/Unions.svg" alt="hamburger">
+            <div class="nav-dir">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav_link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav_link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav_link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
-
+        </div>
     </header>
+
+ 
     <main class="main-container">
         <!-- portfolio description section -->
         <section class="section" aria-label="welcome to Afolabi's introduction section">
@@ -60,7 +69,7 @@
     </main>
     
     <!-- THE WORK SECTION -->
-    <section class="work-portfolio" aria-label="welcome to my work section">
+    <section class="work-portfolio" id="portfolio">
         <div class="container work-section">
             <div class="work-box">
                 <div class="work-img">
@@ -191,7 +200,7 @@
     </section>
 
      <!-- MY ABOUT SECTION -->
-<section class="about-section" aria-label="this is the about me section">
+<section class="about-section" id="about">
     <div class="about-container">
         <div class="about-portfolio">
             <div class="about-box">
@@ -262,7 +271,8 @@
         </div>
     </div>
 </div>
-<footer class="contact-section">
+
+<footer class="contact-section" id="contact">
     <div class="contact-container">
             <div class="contact-box">
                 <h2>Contact me</h2>
@@ -293,5 +303,7 @@
     </div>
     </footer>
 </section>
+
+<script src="script.js"></script>
 </body>
 </html>
