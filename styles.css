@@ -888,4 +888,22 @@ h1.heading {
   .contact-shape img {
     display: none;
   }
+
+  p:hover {
+    font-size: 20px;
+  }
+
+  .social-icons:hover {
+    border: 1px solid #396df2;
+    padding: 40px;
+  }
+
+  .about-icon:hover {
+    border: 1px solid #396df2;
+    padding: 20px;
+  }
+
+  .toolbar a:hover {
+    font-size: 20px;
+  }
 }
