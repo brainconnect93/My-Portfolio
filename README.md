@@ -1,6 +1,7 @@
 # My-Portfolio Desktop version
 
 Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i showcase the work i have done in the past. 
+Kindly checkout my work
 
 > Portfolio project
 > Add contact Session project
