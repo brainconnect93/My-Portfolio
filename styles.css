@@ -83,7 +83,7 @@ a {
 }
 
 .nav_link {
-  transition: 0.7s ease;
+  transition: 2s ease;
 }
 
 .nav_link:hover {
@@ -94,6 +94,9 @@ a {
 .hamburger {
   display: none;
   cursor: pointer;
+  position: fixed;
+  margin-top: -12px;
+  margin-left: -25px;
 }
 
 .hamburger:hover {
