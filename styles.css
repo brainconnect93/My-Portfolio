@@ -94,6 +94,9 @@ a {
 .hamburger {
   display: none;
   cursor: pointer;
+  position: fixed;
+  margin-top: -15px;
+  margin-left: -25px;
 }
 
 .hamburger:hover {
