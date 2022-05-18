@@ -8,8 +8,8 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
-.modal-section {
-  /* display: none; */
+.modal {
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -19,6 +19,7 @@ body {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
+  transition: top 3s ease-in-out;
 }
 
 .modal-box {
@@ -162,12 +163,19 @@ body {
         height: 44rem;
         margin-left: -8.5%;
     }
+
+    .modal-info {
+        margin-top: -30px;
+    }
+
+    .modal-meta {
+        margin-top: -50px;
+    }
+
     .modal-note {
         margin-top: 25px;
         margin-bottom: 40px;
         width: 65%;
-
-        /* display: flex; */
     }
 
     .modal-note p:nth-child(2) {
@@ -185,9 +193,5 @@ body {
     .modal-dir {
         float: right;
         margin-top: -33%;
-        
     }
-
 }
-
-

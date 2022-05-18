@@ -98,7 +98,7 @@
                             <li> <div class="tag2">javascript</div></li>
                         </ul>
                     </div>
-                    <button type="button" class="see-project">See Project</button>
+                    <button type="button" data-modal="modal1" class="see-project">See Project</button>
                 </div>
             </div>
 
@@ -130,7 +130,7 @@
                             <li> <div class="tag2">javascript</div></li>
                         </ul>
                     </div>
-                    <button type="button" class="see-project">See Project</button>
+                    <button type="button" data-modal="modal2" class="see-project">See Project</button>
                 </div>
             </div>
 
@@ -162,7 +162,7 @@
                             <li> <div class="tag2">javascript</div></li>
                         </ul>
                     </div>
-                    <button type="button" class="see-project" id="btn">See Project</button>
+                    <button type="button" data-modal="modal3" class="see-project" id="btn">See Project</button>
                     <img class="hand" src="asset/hand-cursor.svg" alt="hand">
                 </div>
             </div>
@@ -194,7 +194,7 @@
                             <li> <div class="tag2">javascript</div></li>
                         </ul>
                     </div>
-                    <button type="button" class="see-project">See Project</button>
+                    <button type="button" data-modal="modal4" class="see-project">See Project</button>
                 </div>
             </div>
         </div>
@@ -309,9 +309,9 @@
 
 
 <section class="modal-portfolio">
-    <div class="modal-section">
+    <div id="modal1" class="modal">
         <div class="modal-box">
-            <span class="closeBtn">&times;</span>
+            <span class="closeBtn" data-modal="modal1">&times;</span>
             <div class="modal-info">
                 <h3 class="modal-title">Tonic</h3>
                 <div class="modal-meta">
@@ -376,10 +376,12 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- 2ND WORK SECTION -->
+    <div id="modal2" class="modal">
         <div class="modal-box">
-            <span class="closeBtn">&times;</span>
+            <span class="closeBtn" data-modal="modal2">&times;</span>
             <div class="modal-info">
                 <h3 class="modal-title">Multi-Post Stories</h3>
                 <div class="modal-meta">
@@ -444,10 +446,12 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- 3RD WORK SECTION -->
+    <div id="modal3" class="modal">
         <div class="modal-box">
-            <span class="closeBtn">&times;</span>
+            <span class="closeBtn" data-modal="modal3">&times;</span>
             <div class="modal-info">
                 <h3 class="modal-title">Facebook 360</h3>
                 <div class="modal-meta">
@@ -512,10 +516,12 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- 4TH WORK SECTION -->
+    <div id="modal4" class="modal">
          <div class = "modal-box">
-            <span class="closeBtn">&times;</span>
+            <span class="closeBtn" data-modal="modal4">&times;</span>
             <div class="modal-info">
                 <h3 class="modal-title">Uber Navigation</h3>
                 <div class="modal-meta">
