@@ -17,7 +17,7 @@ document.querySelectorAll('.nav_link').forEach((n) => n.addEventListener('click'
 const modalBtns = document.querySelectorAll('.modal-open');
 
 modalBtns.forEach((btn) => {
-  btn.onclick = function () {
+  btn.onclick = function open() {
     const modal = btn.getAttribute('data-modal');
 
     document.getElementById(modal).style.display = 'block';
@@ -28,11 +28,10 @@ modalBtns.forEach((btn) => {
 
 const closeBtns = document.querySelectorAll('.closeBtn');
 closeBtns.forEach((btn) => {
-  btn.onclick = function () {
-
+  btn.onclick = function close() {
     // const modal = btn.getAttribute('.modal');
-    
-    var close = btn.closest('.modal').style.display = 'none';
+
+    /* const close = btn.closest('.modal').style.display = 'none'; */
 
     // document.getElementsByClassName('.closeBtn').style.display = 'none';
   };
@@ -40,7 +39,7 @@ closeBtns.forEach((btn) => {
 
 // clicking outside the box
 
-window.onclick = function(e) {
+window.onclick = function closingAll(e) {
   if (e.target.className === 'modal') {
     e.target.style.display = 'none';
   }
