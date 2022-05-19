@@ -24,7 +24,6 @@ modalBtns.forEach((btn) => {
   };
 });
 
-
 // clicking on the span close Btn
 
 const closeBtns = document.querySelectorAll('.closeBtn');
