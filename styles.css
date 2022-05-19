@@ -281,7 +281,7 @@ h1.heading {
   width: 100px;
 }
 
-.see-project {
+.modal-open {
   align-items: center;
   position: static;
   text-align: center;
@@ -297,7 +297,7 @@ h1.heading {
   border: 1px solid #396df2;
 }
 
-.see-project:hover {
+.modal-open:hover {
   background-color: rgb(172, 153, 153);
   cursor: pointer;
   color: #fff;
@@ -728,7 +728,7 @@ h1.heading {
     height: 100%;
   }
 
-  .see-project:active {
+  .modal-open:active {
     cursor: pointer;
     border: 2px solid #a7aeff;
     box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);

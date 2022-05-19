@@ -73,7 +73,7 @@ body {
 }
 
 .modal-note p:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 .modal-tag ul {
@@ -87,7 +87,7 @@ body {
 }
 
 .modal-tag ul:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 .modal-tag ul li {
@@ -125,7 +125,11 @@ body {
   margin: 0 10px 5px 5px;
   padding: 12px;
   cursor: pointer;
-  
+}
+
+.modal-project:hover {
+  background-color: #396df2;
+  color: #fff;
 }
 
 .modal-btn img {
@@ -195,3 +199,4 @@ body {
         margin-top: -33%;
     }
 }
+
