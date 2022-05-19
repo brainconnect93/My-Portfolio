@@ -24,16 +24,14 @@ modalBtns.forEach((btn) => {
   };
 });
 
+
 // clicking on the span close Btn
 
 const closeBtns = document.querySelectorAll('.closeBtn');
+
 closeBtns.forEach((btn) => {
   btn.onclick = function close() {
-    // const modal = btn.getAttribute('.modal');
-
-    /* const close = btn.closest('.modal').style.display = 'none'; */
-
-    // document.getElementsByClassName('.closeBtn').style.display = 'none';
+    btn.closest('.modal').style.display = 'none';
   };
 });
 
