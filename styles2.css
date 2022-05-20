@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-body {
+body,
+html {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   background-color: rgb(240, 240, 240);
@@ -23,10 +27,12 @@ body {
 }
 
 .modal-box {
-  height: auto;
+  /* display: none; */
   background-color: #fff;
   padding: 5px 20px;
-  width: 63%;
+  width: 343px;
+  height: auto;
+  top: 60px;
   justify-content: center;
   margin: 50px auto;
   border-radius: 16px;
@@ -48,6 +54,16 @@ body {
   cursor: pointer;
   transform: rotate(360deg);
   transition: 1s ease;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-img img {
+  width: 100%;
+  height: 20%;
+  margin-top: 10px;
 }
 
 .modal-meta {
@@ -72,9 +88,10 @@ body {
   font-weight: 500;
   font-size: 15px;
   color: #344563;
+  margin: 20px 0;
 }
 
-.modal-note p:nth-child(2) {
+.modal-note p:nth-child(odd) {
   display: none;
 }
 
@@ -85,7 +102,6 @@ body {
   align-items: center;
   padding: 3px 10px;
   margin-left: -20px;
-  margin-top: -8px;
 }
 
 .modal-tag ul:nth-child(2) {
@@ -143,7 +159,7 @@ body {
   border: 1px solid #ebecf0;
   width: 98%;
   align-items: center;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -155,7 +171,7 @@ body {
     height: auto;
     background-color: #fff;
     padding: 5px 20px;
-    max-width: 72.25rem;
+    min-width: 72.25rem;
     justify-content: center;
     margin: 50px auto;
     border-radius: 16px;
@@ -164,15 +180,18 @@ body {
       0 5px 12px rgba(5, 50, 200, 0.5);
   }
 
+  .modal-img {
+    height: auto;
+  }
+
   .modal-img img {
-    min-width: 69.25rem;
+    min-width: 60.25rem;
     align-items: center;
-    height: 44rem;
-    margin-left: -8.5%;
   }
 
   .modal-info {
     margin-top: -30px;
+    margin-left: 25px;
   }
 
   .modal-meta {
@@ -180,17 +199,12 @@ body {
   }
 
   .modal-note {
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin: 30px 25px;
     width: 65%;
   }
 
-  .modal-note p:nth-child(2) {
+  .modal-note p:nth-child(odd) {
     display: contents;
-  }
-
-  .modal-note p:nth-child(1) {
-    display: none;
   }
 
   .modal-tag ul:nth-child(2) {
@@ -199,6 +213,6 @@ body {
 
   .modal-dir {
     float: right;
-    margin-top: -33%;
+    margin-top: -25%;
   }
 }

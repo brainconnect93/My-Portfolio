@@ -191,8 +191,7 @@ h1.heading {
 }
 
 .work-info {
-  min-width: 240px;
-  height: auto;
+  margin-left: -10px;
 }
 
 .work-img {
@@ -281,7 +280,7 @@ h1.heading {
   width: 100px;
 }
 
-.modal-open {
+.see-project {
   align-items: center;
   position: static;
   text-align: center;
@@ -297,7 +296,7 @@ h1.heading {
   border: 1px solid #396df2;
 }
 
-.modal-open:hover {
+.see-project:hover {
   background-color: rgb(172, 153, 153);
   cursor: pointer;
   color: #fff;
@@ -314,10 +313,20 @@ h1.heading {
   border-radius: 16px;
   padding: 15px;
   justify-content: center;
-  margin: 20px;
+  margin: 20px 0;
+  width: 430px;
+  margin-right: 55px;
+  align-items: center;
+}
+
+.work-portfolio {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .work-section {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -708,10 +717,11 @@ h1.heading {
   }
 
   .work-box {
-    max-width: 72.25rem;
+    min-width: 72.25rem;
     height: 26.25rem;
     border-radius: 1.5rem;
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .work-box:hover {
@@ -721,14 +731,23 @@ h1.heading {
   }
 
   .work-box:nth-child(even) {
+    display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
   }
 
-  .work-img img {
+  .work-img {
     height: 100%;
   }
 
-  .modal-open:active {
+  .work-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .see-project:active {
     cursor: pointer;
     border: 2px solid #a7aeff;
     box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
@@ -738,8 +757,8 @@ h1.heading {
 
   .work-info {
     height: 100;
-    width: auto;
-    margin: 15px;
+    margin: 10px 0;
+    width: 60%;
   }
 
   .work-meta p {
