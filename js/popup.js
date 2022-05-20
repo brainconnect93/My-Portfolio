@@ -68,13 +68,6 @@ for (let i = 0; i < projects.length; i += 1) {
 
 const modal = document.getElementById('modal1');
 
-// const btn = document.querySelectorAll(".see-project");
-// btn.forEach((b) => {
-//   b.addEventListener("click", () => {
-//     modal.style.display = "block";
-//   });
-// });
-
 for (let j = 0; j < projects.length; j += 1) {
   const seeBtn = document.querySelectorAll(`[id=btn-${j}]`);
   seeBtn.forEach((bt) => {

@@ -157,18 +157,21 @@
                 I'd love to help with it </p>
             </div>
             <div class="contact-form">
-            <form action="https://formspree.io/f/xnqwordb" method="post">
+            <form id="form" class="form" action="https://formspree.io/f/xnqwordb" method="post">
 
-                <input name="first_name" 
+                <input class="form-input" name="first_name" 
                 id="text" type="text" 
                 maxlength="30" 
                 placeholder="Afolabi" required>
               
-                <input name="Email" 
+                <input class="form-input" name="Email" 
                 id="email" type="email" 
                 placeholder="example@gmail.com" required>
+                <div class="error-text hide">
+                    <em>Failed, kindly enter your email in lower case</em>
+                 </div>
 
-                <textarea id="message" 
+                <textarea class="form-input" id="message" 
                 name="message" maxlength="500" required>Write your message here
                 </textarea>
 
@@ -190,6 +193,7 @@
     </div>   
 </section>
 
+<script src="js/valid.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/script.js"></script>
 </body>
