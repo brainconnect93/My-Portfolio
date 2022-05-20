@@ -1,4 +1,4 @@
-# My-Portfolio Desktop version
+# My-Portfolio Popup window
 
 Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i showcase the work i have done in the past. 
 Kindly checkout my work
@@ -9,6 +9,8 @@ Kindly checkout my work
 > Add Animation effect to the project
 > Make the Desktop version of the protfolio project
 > Make the mobile menu of the portfolio using javaScript
+> Make the modal popup window of the portfolio using javaScript
+
 
 ## Built With
 
@@ -43,6 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
+Thanks to M.SILUE Massaillon for contributing on my project
 
 Feel free to check the issues page.
 
