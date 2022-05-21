@@ -14,5 +14,4 @@ function emailCheckLowerCase(e) {
     errorText.classList.add('hide');
   }
 }
-form.addEventListener('click', emailCheckLowerCase);
 form.addEventListener('submit', emailCheckLowerCase);
