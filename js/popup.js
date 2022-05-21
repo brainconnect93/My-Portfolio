@@ -87,7 +87,7 @@ for (let j = 0; j < projects.length; j += 1) {
                 </div>
             </div>
             <div class="modal-img">
-                <img src="${projects[j].image}>" alt="image one">
+                <img src="${projects[j].image}" alt="image one">
             </div>
                 <div class="modal-note">
                     <p>${projects[j].description}</p>
