@@ -42,6 +42,7 @@ To get a local copy up and running follow these simple example steps.
 
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
+    Twitter: Massaillon Silue
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
