@@ -1,4 +1,4 @@
-# My-Portfolio Popup window
+# My-Portfolio contact form validation
 
 Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i showcase the work i have done in the past. 
 Kindly checkout my work
@@ -10,6 +10,7 @@ Kindly checkout my work
 > Make the Desktop version of the protfolio project
 > Make the mobile menu of the portfolio using javaScript
 > Make the modal popup window of the portfolio using javaScript
+> Make the form validation of the contact section of my portfolio project
 
 
 ## Built With
@@ -42,6 +43,7 @@ To get a local copy up and running follow these simple example steps.
 
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
+    Twitter: Massaillon Silue
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

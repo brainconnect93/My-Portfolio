@@ -162,6 +162,20 @@ html {
   margin: 20px 0;
 }
 
+/* form validation styling */
+
+.error-text {
+  color: red;
+  font-size: 15px;
+  font-weight: 400;
+  align-self: center;
+  margin-left: 28px;
+}
+
+.hide {
+  display: none !important;
+}
+
 @media screen and (min-width: 768px) {
   .modal-info h3 {
     font-size: 40px;
