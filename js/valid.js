@@ -1,18 +1,3 @@
-// const form = document.getElementById('form');
-// const errorText = document.querySelector('.error-text');
-// const email = document.getElementById('email');
-
-// form.addEventListener('submit', (e) => {
-//     const errorText = [''];
-//     if (userEmail.value !== userEmail.value.toLowerCase()) {
-//         errorText.push('Failed, kindly enter your email in lower case');
-//     }
-//     if (errorText.length > 0) {
-//         e.preventDefault();
-//         errorText.innerText = errorText.join('');
-//     }
-// });
-
 // Form Validation Code
 
 const form = document.getElementById('form');
