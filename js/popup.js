@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: 'Tonic',
+    title: 'TODO List',
     devs: ['CANOPY', ' • Back End Dev', ' • 2015'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'css', 'ruby', 'javascript'],
-    image: 'asset/Snapshoot-Portfolio3.svg',
+      'This project is a web application that enables users to add, edit and remove tasks they intend to perform. Built with JavaScript, HTML, and CSS.',
+    tags: ['html', 'css', 'javascript'],
+    image: 'asset/todo-list.png',
   },
   {
     title: 'Multi-Post Stories',
