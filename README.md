@@ -1,7 +1,7 @@
 # My-Portfolio contact form validation
 
 Here is [my portfolio](https://brainconnect93.github.io/My-Portfolio/) where i showcase the work i have done in the past. 
-Kindly checkout my work
+Kindly checkout my work following the sections below
 
 > Portfolio project
 > Add contact Session project
