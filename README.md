@@ -13,6 +13,10 @@ Kindly checkout my work following the sections below
 > Make the form validation of the contact section of my portfolio project
 
 
+### Live link
+[Live link](https://brainconnect93.github.io/My-Portfolio/)
+
+
 ## Built With
 
     - HTML
