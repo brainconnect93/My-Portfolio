@@ -1,36 +1,36 @@
 const projects = [
   {
     title: 'TODO List',
-    devs: ['CANOPY', ' • Front End Dev', ' • 2022'],
+    devs: ['TodoList • Front End Dev • 2022'],
     description:
-      'This project is a web application that enables users to add, edit and remove tasks they intend to perform. Built with JavaScript, HTML, and CSS.',
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It also allows you to edit notes and delete task that has been completed.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     image: 'asset/todo-list.png',
   },
   {
     title: 'BOOKSTORE CMS',
-    devs: ['Facebook', ' • Full Stack Dev', ' • 2022'],
+    devs: ['Bookstore • Full Stack Dev 2022'],
     description:
       'This is an online library application that enables users to keep track of books in their library by adding to and removing books from a list. user can also check the percentage reading the book. Built with React JS, Redux and CSS',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    tags: ['JavaScript', 'React', 'Redux'],
     image: 'asset/bookstore.png',
   },
 
   {
     title: 'TV MAZE',
-    devs: ['Facebook', ' • Front End Dev', ' • 2022'],
+    devs: ['Tv Maze • Front End Dev  • 2022'],
     description:
       'This is an API-based website that record the different user interactions which includes likes, comments and reservations. Three interfaces are built and each of them shows the home page, comments popup and the reservation popup.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     image: 'asset/tv-maze.png',
   },
   {
-    title: 'Uber Navigation',
-    devs: ['Uber', ' • Full Stack Dev', ' • 2022'],
+    title: 'FOOD-RECIPE APP',
+    devs: ['Food Recipe • Full Stack Dev • 2022'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'ruby', 'javascript'],
-    image: 'asset/Snapshoot-Portfolio2.svg',
+      'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have and generate a shopping list based on what you have and what you are missing from a recipe.',
+    tags: ['Rails', 'ruby', 'Postgres'],
+    image: 'asset/food-recipe.png',
   },
 ];
 
@@ -44,11 +44,7 @@ for (let i = 0; i < projects.length; i += 1) {
                 <div class="work-info">
                     <h2 class="work-title">${projects[i].title}</h2>
                     <div class="work-meta">
-                        <p class="work-para">canopy</p>
-                        <img src="asset/Counter.svg" alt="dot">
-                        <p class="work-para1">Back End Dev</p>
-                        <img src="asset/Counter.svg" alt="dot">
-                        <p class="work-para2">2015</p>
+                        <p class="work-para">${projects[i].devs}</p>
                     </div>
                     <div class="work-note">
                         <p>${projects[i].description}</p>
@@ -79,11 +75,7 @@ for (let j = 0; j < projects.length; j += 1) {
             <div class="modal-info">
                 <h3 class="modal-title">${projects[j].title}</h3>
                 <div class="modal-meta">
-                    <p class="modal-para">canopy</p>
-                    <img src="asset/Counter.svg" alt="dot">
-                    <p class="modal-para1">Back End Dev</p>
-                    <img src="asset/Counter.svg" alt="dot">
-                    <p class="modal-para2">2015</p>
+                    <p class="work-para">${projects[j].devs}</p>
                 </div>
             </div>
             <div class="modal-img">
@@ -109,10 +101,10 @@ for (let j = 0; j < projects.length; j += 1) {
                 </div>
                 <img class="line" src="asset/Vector4.svg" alt="line">
                 <div class="modal-btn">
-                <button type="button" class="modal-project">See Live
+                <button type="submit" class="modal-project">See Live
                     <img src="asset/Icon.svg" alt="logo">
                 </button>
-                <button type="button" class="modal-project">See Source
+                <button type="submit" class="modal-project">See Source
                     <img src="asset/Vector.svg" alt="git_logo">
                 </button>
                 </div>

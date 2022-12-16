@@ -59,7 +59,6 @@ li {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -84,6 +83,8 @@ a {
 
 .nav_link {
   transition: 2s ease;
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav_link:hover {
@@ -95,7 +96,7 @@ a {
   display: none;
   cursor: pointer;
   position: fixed;
-  margin-top: -12px;
+  margin-top: -20px;
   margin-left: -25px;
 }
 
@@ -196,13 +197,13 @@ h1.heading {
 
 .work-img {
   border-radius: 8px;
-  margin: 1px 5px;
-  padding: 4px 5px;
+  /* margin: 1px 5px;
+  padding: 4px 5px; */
 }
 
 .work-img img {
-  min-width: 400px;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .work-title {
@@ -267,7 +268,7 @@ h1.heading {
 
 .tag {
   position: static;
-  width: 60px;
+  width: 95px;
 }
 
 .tag1 {
@@ -313,15 +314,13 @@ h1.heading {
   border-radius: 16px;
   padding: 15px;
   justify-content: center;
-  margin: 20px 0;
-  width: 430px;
-  margin-right: 55px;
+  margin: 20px 5%;
+  width: 90%;
   align-items: center;
 }
 
 .work-portfolio {
   width: 100%;
-  margin: 0 auto;
 }
 
 .work-section {
@@ -331,8 +330,8 @@ h1.heading {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 30px;
-  gap: 30px;
+  /* padding: 30px; */
+  /* gap: 30px; */
 }
 
 .about-section {
@@ -745,6 +744,7 @@ h1.heading {
   .work-img img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
   }
 
   .see-project:active {
@@ -913,16 +913,6 @@ h1.heading {
 
   p:hover {
     font-size: 20px;
-  }
-
-  .social-icons:hover {
-    border: 1px solid #396df2;
-    padding: 40px;
-  }
-
-  .about-icon:hover {
-    border: 1px solid #396df2;
-    padding: 20px;
   }
 
   .toolbar a:hover {
