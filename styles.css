@@ -192,18 +192,16 @@ h1.heading {
 }
 
 .work-info {
-  margin-left: -10px;
+  width: 100%;
 }
 
 .work-img {
   border-radius: 8px;
-  /* margin: 1px 5px;
-  padding: 4px 5px; */
 }
 
 .work-img img {
+  border-radius: 8px;
   width: 100%;
-  height: 100%;
 }
 
 .work-title {
@@ -211,15 +209,14 @@ h1.heading {
   font-size: 32px;
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
-  margin: 1px 12px;
-  padding: 4px 12px;
+  margin: 1px 0;
+  padding: 4px 0;
   position: static;
 }
 
 .work-meta {
   display: flex;
   flex-direction: row;
-  margin: 12px 12px;
 }
 
 .work-meta img {
@@ -230,7 +227,6 @@ h1.heading {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-  margin: 0 12px;
 }
 
 .work-para {
@@ -242,8 +238,6 @@ h1.heading {
   font-weight: 500;
   font-size: 15px;
   color: #344563;
-  margin: 0 12px;
-  padding: 4px 12px;
 }
 
 .work-tag ul {
@@ -251,16 +245,16 @@ h1.heading {
   flex-direction: row;
   list-style: none;
   align-items: center;
-  padding: 3px 15px;
+  padding: 3px 0;
   margin-top: -2px;
   margin-bottom: 30px;
 }
 
 .work-tag ul li {
-  margin: 1px 8px;
+  margin: 1px 5px 1px 0;
   flex-grow: 0;
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 12px;
   position: static;
   color: #6070ff;
   text-align: center;
@@ -293,12 +287,12 @@ h1.heading {
   width: 110px;
   height: 40px;
   border-radius: 5px;
-  margin: 0 25px;
+  margin: 0 ;
   border: 1px solid #396df2;
 }
 
 .see-project:hover {
-  background-color: rgb(172, 153, 153);
+  background-color: #396df2;
   cursor: pointer;
   color: #fff;
   transition: all 0.3s ease-in-out;
@@ -523,8 +517,6 @@ h1.heading {
 .contact-form {
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  margin-left: 20px;
 }
 
 .contact-form input {
@@ -716,11 +708,12 @@ h1.heading {
   }
 
   .work-box {
-    min-width: 72.25rem;
-    height: 26.25rem;
+    width: 90%;
+    height: auto;
     border-radius: 1.5rem;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin: 20px 5%;
   }
 
   .work-box:hover {
@@ -738,6 +731,7 @@ h1.heading {
   }
 
   .work-img {
+    width: 100%;
     height: 100%;
   }
 
@@ -756,9 +750,8 @@ h1.heading {
   }
 
   .work-info {
-    height: 100;
-    margin: 10px 0;
-    width: 60%;
+    margin: 10px 50px;
+    width: 100%;
   }
 
   .work-meta p {

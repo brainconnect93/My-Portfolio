@@ -30,7 +30,7 @@ html {
   /* display: none; */
   background-color: #fff;
   padding: 5px 20px;
-  width: 343px;
+  width: 80%;
   height: auto;
   top: 60px;
   justify-content: center;
@@ -100,8 +100,8 @@ html {
   flex-direction: row;
   list-style: none;
   align-items: center;
-  padding: 3px 10px;
-  margin-left: -20px;
+  padding: 3px 0;
+  margin-left: -5px;
 }
 
 .modal-tag ul:nth-child(2) {
@@ -109,10 +109,10 @@ html {
 }
 
 .modal-tag ul li {
-  margin: 1px 8px;
+  margin: 1px 3px;
   flex-grow: 0;
   background: #ebebff;
-  border-radius: 16px;
+  border-radius: 10px;
   position: static;
   color: #6070ff;
   text-align: center;
@@ -185,7 +185,7 @@ html {
     height: auto;
     background-color: #fff;
     padding: 5px 20px;
-    min-width: 72.25rem;
+    width: 90%;
     justify-content: center;
     margin: 50px auto;
     border-radius: 16px;
@@ -199,7 +199,7 @@ html {
   }
 
   .modal-img img {
-    min-width: 60.25rem;
+    border-radius: 16px;
     align-items: center;
   }
 
@@ -213,7 +213,7 @@ html {
   }
 
   .modal-note {
-    margin: 30px 25px;
+    margin: 30px 5px;
     width: 65%;
   }
 
@@ -227,6 +227,6 @@ html {
 
   .modal-dir {
     float: right;
-    margin-top: -25%;
+    margin-top: -23%;
   }
 }
