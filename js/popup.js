@@ -1,32 +1,32 @@
 const projects = [
   {
     title: 'TODO List',
-    devs: ['CANOPY', ' • Back End Dev', ' • 2015'],
+    devs: ['CANOPY', ' • Front End Dev', ' • 2022'],
     description:
       'This project is a web application that enables users to add, edit and remove tasks they intend to perform. Built with JavaScript, HTML, and CSS.',
-    tags: ['html', 'css', 'javascript'],
+    tags: ['HTML', 'CSS', 'JavaScript'],
     image: 'asset/todo-list.png',
   },
   {
-    title: 'Multi-Post Stories',
-    devs: ['Facebook', ' • Full Stack Dev', ' • 2018'],
+    title: 'BOOKSTORE CMS',
+    devs: ['Facebook', ' • Full Stack Dev', ' • 2022'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
-    tags: ['html', 'css', 'ruby', 'javascript'],
-    image: 'asset/Snapshoot-Portfolio.svg',
+      'This is an online library application that enables users to keep track of books in their library by adding to and removing books from a list. user can also check the percentage reading the book. Built with React JS, Redux and CSS',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    image: 'asset/bookstore.png',
   },
 
   {
-    title: 'Facebook 360',
-    devs: ['Facebook', ' • Full Stack Dev', ' • 2020'],
+    title: 'TV MAZE',
+    devs: ['Facebook', ' • Front End Dev', ' • 2022'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'ruby', 'javascript'],
-    image: 'asset/Snapshoot-Portfolio1.svg',
+      'This is an API-based website that record the different user interactions which includes likes, comments and reservations. Three interfaces are built and each of them shows the home page, comments popup and the reservation popup.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: 'asset/tv-maze.png',
   },
   {
     title: 'Uber Navigation',
-    devs: ['Uber', ' • Lead Developer', ' • 2022'],
+    devs: ['Uber', ' • Full Stack Dev', ' • 2022'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     tags: ['html', 'css', 'ruby', 'javascript'],
