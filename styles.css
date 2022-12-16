@@ -287,7 +287,6 @@ h1.heading {
   width: 110px;
   height: 40px;
   border-radius: 5px;
-  margin: 0 ;
   border: 1px solid #396df2;
 }
 
@@ -324,8 +323,6 @@ h1.heading {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  /* padding: 30px; */
-  /* gap: 30px; */
 }
 
 .about-section {
